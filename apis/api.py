@@ -42,7 +42,7 @@ class ApkPure(object):
 			read.read(data)
 		return read
 	
-	def _tranding(self) -> Union[dict, ResponseObject]:
+	def _trending(self) -> Union[dict, ResponseObject]:
 		"""
 		Use this method to know 24h tranding application fromapk.pure
 		
@@ -58,7 +58,7 @@ class ApkPure(object):
 			read.read(data)
 		return read
 	
-	def this_detail(self, data: dict,  numc: int) -> Union[dict, ResponseObject]:
+	def _detail(self, data: dict,  numc: int) -> Union[dict, ResponseObject]:
 		"""
 		use this method to get detial from specifict data
 		
@@ -76,7 +76,7 @@ class ApkPure(object):
 			read = ret
 		return read
 
-	def download_(self, url: str, name: str, ex: str, path: str=None) -> bool:
+	def _download(self, url: str, name: str, ex: str, path: str=None) -> bool:
 		"""
 		use  this method to download application & store it into current main path
 		
