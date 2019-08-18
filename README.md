@@ -28,7 +28,8 @@ GET localhost:5000/query?search=<query string>
 ### Get Detail
 ```Http
 GET http://localhost:5000/app?url=<url app> 
-example : http://localhost:5000/app?url=/pubg-tencent-1i/com.tencent.ig
+
+Example : /pubg-tencent-1i/com.tencent.ig
 ```
 ### Get Trending
 ```Http
