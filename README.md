@@ -68,7 +68,7 @@ print(trending)
 ```python
 api._download(url=detail.url_download, name=detail.title, ex=detail.extension, path="/downloads)
 ```
-
+<a href="https://www.buymeacoffee.com/8c6k5Ns" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 
 # Author
