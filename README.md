@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ApkPure Unofficial Wrapper ✨
 _Search, Simplify detail & Downloadable from Apkpure.com_
 
@@ -48,3 +49,6 @@ api.download_(url=detail.url_download, name=detail.title, ex=detail.extension, p
 
 # Author
 Dyseo / [Dyseo](https://github.com/dyseo)
+=======
+# api.apkpure
+>>>>>>> ef8655ed7ab3eac5bc103797f4bdbd0f099ca3f4
