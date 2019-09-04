@@ -13,7 +13,6 @@ def query():
             query = request.values['search'] or ''
             find = api._search(query)
             data = api._detail(find, 1)
-            print(data)
             app_json = json.dumps(find)
             return app_json
 @app.route('/appDetail', methods=['GET'])
@@ -22,14 +21,12 @@ def appDetail():
         if request.values['url']:
             appQuery = request.values['url'] or ''
             details = api.detail_from_url(appQuery)
-            print(appQuery)
             app_json = json.dumps(details)
             return app_json
 @app.route('/trending', methods=['GET'])
 def trending():
     if (request.method == "GET"):
         apps = api._trending()
-        print(apps)
         app_json = json.dumps(apps)
         return app_json
 
