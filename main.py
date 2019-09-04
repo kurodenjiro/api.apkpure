@@ -12,7 +12,6 @@ def query():
         if request.values['search']:
             query = request.values['search'] or ''
             find = api._search(query)
-            data = api._detail(find, 1)
             app_json = json.dumps(find)
             return app_json
 @app.route('/appDetail', methods=['GET'])
