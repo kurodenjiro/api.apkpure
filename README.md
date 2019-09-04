@@ -27,7 +27,7 @@ GET localhost:5000/query?search=<query string>
 
 ### Get Detail
 ```Http
-GET http://localhost:5000/app?url=<url app> 
+GET http://localhost:5000/appDetail?url=<url app> 
 
 #Example : /pubg-tencent-1i/com.tencent.ig
 ```
